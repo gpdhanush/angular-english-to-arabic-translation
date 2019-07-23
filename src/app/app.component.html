@@ -1,0 +1,21 @@
+<div  class=" container">
+  <h2 style="text-align:center"> {{ 'login.page.title' | translate }} </h2>
+
+<p>
+  <mat-form-field appearance="outline" class="full-width" [ngClass]="bntStyle">
+    <mat-label>{{ 'login.formfield.username.name' | translate }}</mat-label>
+    <input matInput placeholder="{{ 'login.formfield.username.placeholder' | translate }}">
+  </mat-form-field>
+</p>
+
+<p>
+  <mat-form-field appearance="outline" class="full-width" [ngClass]="bntStyle">
+    <mat-label>{{ 'login.formfield.password.name' | translate }}</mat-label>
+    <input type="password" matInput placeholder="{{ 'login.formfield.password.placeholder' | translate }}">
+  </mat-form-field>
+</p>
+<button mat-raised-button color="accent"> Login </button>
+<br />
+<br />
+<button (click)="useLanguage('ar')" *ngIf="englishButton" mat-raised-button color="primary"> Arabic </button> &nbsp; 
+<button (click)="useLanguage('en')" *ngIf="arabicButton" mat-raised-button color="primary" > English </button>

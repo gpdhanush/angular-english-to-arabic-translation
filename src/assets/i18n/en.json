@@ -1,0 +1,34 @@
+{
+
+	"commonmessage": {
+		"staticcontent.internet.error": "Please check your internet",
+		"staticcontent.quote.stepper": "Quote",
+		"staticcontent.moreinfo.stepper": "More Info",
+		"staticcontent.payment.stepper": "Payment",
+		"staticcontent.policy.stepper": "Policy"
+	},
+
+	"login": {
+		"page.title": "Login",
+		"staticcontent.fingerprint": "Login Using Fingerprint",
+		"staticcontent.fingerprintdes": "Place your finger on fingerprint scanner to login",
+		"staticcontent.forgotlink": "Forgot Password",
+		"staticcontent.forgotuserid": "Forgot Username",
+		"staticcontent.forgotsuccess": "Password has been sent to your Registered Email Id",
+		"staticcontent.forgotusersuccess": "Username has been sent to your Registered Email Id",
+		"formfield.username.name": "Username",
+		"formfield.username.placeholder": "Enter Username",
+		"formfield.username.error": "Username contain minimum 8 character and Maximum 16 character",
+		"formfield.email.name": "Email-ID",
+		"formfield.email.placeholder": "Enter Email-ID",
+		"formfield.email.error": "Enter valid email-ID",
+		"formfield.password.name": "Password",
+		"formfield.password.placeholder": "Enter password",
+		"formfield.password.error": "Password contain minimum 8 character",
+		"formfield.error.loginerror": "Wrong username and passeord",
+		"buttons.login": "Login",
+		"buttons.register": "Register",
+		"buttons.submit": "Submit",
+		"buttons.close": "Close"
+	}
+}

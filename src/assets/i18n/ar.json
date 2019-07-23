@@ -1,0 +1,34 @@
+{
+	
+	"commonmessage":{
+		"staticcontent.internet.error":"يرجى التحقق من الإنترنت الخاص بك",
+		"staticcontent.quote.stepper": "اقتبس",
+		"staticcontent.moreinfo.stepper": "مزيد من المعلومات",
+		"staticcontent.payment.stepper": "دفع",
+		"staticcontent.policy.stepper": "سياسات"
+	},
+	
+	"login":{
+		"page.title":"تسجيل الدخول",
+		"staticcontent.fingerprint":"تسجيل الدخول باستخدام بصمة",
+		"staticcontent.fingerprintdes":"ضع إصبعك على ماسحة البصمات لتسجيل الدخول",
+		"staticcontent.forgotlink":"هل نسيت كلمة المرور",
+		"staticcontent.forgotuserid":"هل نسيت اسم المستخدم",
+		"staticcontent.forgotsuccess":"تم إرسال كلمة المرور إلى معرف البريد الإلكتروني المسجل الخاص بك",
+		"staticcontent.forgotusersuccess":"تم إرسال اسم المستخدم إلى معرف البريد الإلكتروني المسجل الخاص بك",
+		"formfield.username.name":"اسم المستخدم",
+		"formfield.username.placeholder":"ادخل اسم المستخدم",
+		"formfield.username.error":"اسم المستخدم يحتوي على 8 أحرف على الأقل و 16 حرفًا كحد أقصى",
+		"formfield.email.name":"عنوان الايميل",
+		"formfield.email.placeholder":"أدخل معرف البريد الإلكتروني",
+		"formfield.email.error":"أدخل معرف البريد الإلكتروني صالح",
+		"formfield.password.name":"كلمه السر",
+		"formfield.password.placeholder":"أدخل كلمة المرور",
+		"formfield.password.error":"كلمة المرور تحتوي على 8 أحرف على الأقل",
+		"formfield.error.loginerror":"اسم المستخدم وكلمة المرور خاطئة",
+		"buttons.login":"تسجيل الدخول",
+		"buttons.register":"تسجيل",
+		"buttons.submit":"خضع",
+		"buttons.close":"قريب"
+	}
+}
