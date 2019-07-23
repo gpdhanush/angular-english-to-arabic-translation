@@ -1,4 +1,9 @@
-<div  class=" container">
+<mat-toolbar color="primary">
+  Angular Material App
+</mat-toolbar>
+
+<div class="basic-container">
+
   <h2 style="text-align:center"> {{ 'login.page.title' | translate }} </h2>
 
 <p>
@@ -14,8 +19,16 @@
     <input type="password" matInput placeholder="{{ 'login.formfield.password.placeholder' | translate }}">
   </mat-form-field>
 </p>
-<button mat-raised-button color="accent"> Login </button>
+<div [ngClass]="bntStyle" >
+<button mat-raised-button color="accent"> {{'login.buttons.login' | translate }} </button> &nbsp; 
+<button mat-raised-button color="warn"> {{'login.buttons.close' | translate }} </button>
+</div>
 <br />
-<br />
+<br /><br />
 <button (click)="useLanguage('ar')" *ngIf="englishButton" mat-raised-button color="primary"> Arabic </button> &nbsp; 
 <button (click)="useLanguage('en')" *ngIf="arabicButton" mat-raised-button color="primary" > English </button>
+<br />
+<br />
+<span class="version-info">Current build: {{version.full}}</span>
+
+</div>

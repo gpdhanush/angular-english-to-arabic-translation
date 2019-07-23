@@ -9,7 +9,7 @@ import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatFormFieldModule, MatInputModule, MatButtonModule} from '@angular/material';
+import {MatFormFieldModule, MatInputModule, MatButtonModule,   MatToolbarModule} from '@angular/material';
 
 @NgModule({
   imports:      [BrowserAnimationsModule, BrowserModule, FormsModule, HttpClientModule,
@@ -22,6 +22,7 @@ import {MatFormFieldModule, MatInputModule, MatButtonModule} from '@angular/mate
         }),
         MatFormFieldModule,
         MatInputModule,
+        MatToolbarModule,
         MatButtonModule ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
